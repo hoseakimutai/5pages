@@ -1,0 +1,103 @@
+.container {
+    display: flex;
+    height: 100vh;
+    width: 100wh;
+    padding: 20px;
+    color: white;
+    border: solid red 5px;
+
+
+}
+
+.head {
+    width: 60vw;
+    background-color: green;
+    color: white;
+    text-align: start;
+    justify-content: center;
+}
+
+.head h1 {
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.head button {
+    height: 50px;
+    border-radius: 10px;
+    background-color: gold;
+    font-weight: bolder;
+    font-size: 20px;
+
+}
+
+.head h3 {
+    margin-top: 5px;
+    font-weight: medium;
+}
+
+.head p {
+    margin-top: 70px;
+}
+
+.right {
+    width: 40vw;
+}
+
+.right img {
+    width: 40vw;
+    height: 100vh;
+}
+
+.top {
+    display: flex;
+    height: 40vh;
+    flex-direction: column;
+    color: white;
+    margin-bottom: 10px;
+}
+.page2{
+    display: flex;
+    flex-direction: row;
+}
+
+.top h1 {
+    width: 60vw;
+    text-align: start;
+    padding-left: 20px;
+    font-size: 40px;
+    font-weight: bolder;
+    padding-left: 70px;
+}
+
+.top p {
+    width: 40vw;
+    font-size: 25px;
+    text-align: right;
+}
+
+.page2 {
+    background-color: rgb(214, 214, 130);
+
+}
+
+.bottom {
+    padding-left: 70px;
+}
+
+.bottom img {
+    width: 80vw;
+    height: 40vh;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.heading {
+    color: black;
+}
+.page3{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    justify-content: space-around;
+    
+}
